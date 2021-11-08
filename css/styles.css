@@ -1,0 +1,218 @@
+:root {
+  --color-headlines: #212121;
+  --color-headlines-second: #ffffff;
+  --color-text: #757575;
+  --color-decor: #2196f3;
+  --color-decor-second: #188ce8;
+  --bg-main: #ffffff;
+  --bg-footer: #2f303a;
+  --bg-section-decor: #f5f4fa;
+  --font-main: Roboto, sans-serif;
+  --font-logo: Raleway, sans-serif;
+}
+body {
+  font-family: var(--font-main);
+  color: var(--color-text);
+  background-color: var(--bg-main);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-headlines);
+}
+/*скидываем стили*/
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/*---header start---*/
+/*logo*/
+.logo {
+  font-family: var(--font-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo > .logo-decor {
+  color: var(--color-decor);
+}
+/*nav, contacts*/
+.nav,
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.nav-link {
+  text-transform: capitalize;
+}
+.nav-link {
+  color: var(--color-headlines);
+}
+.contacts-link {
+  color: inherit;
+}
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--color-decor);
+}
+.nav-link.curent {
+  color: var(--color-decor);
+}
+/*hero*/
+.hero {
+  background-color: var(--bg-footer);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-headlines-second);
+}
+.hero-btn {
+  padding: 10px 32px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--color-headlines-second);
+  background-color: var(--color-decor);
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--color-decor-second);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/*---header end---*/
+
+/*----main start---*/
+/*Specials*/
+.special-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.special-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/*services */
+.services {
+}
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*team*/
+.team {
+  background-color: var(--bg-section-decor);
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-card {
+  background-color: var(--bg-main);
+}
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-desc {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*---main end---*/
+
+/*---footer start---*/
+.footer {
+  background-color: var(--bg-footer);
+}
+.footer .logo {
+  color: var(--color-headlines-second);
+}
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.address-map-link {
+  color: var(--color-headlines-second);
+}
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-map-link:hover,
+.address-map-link:focus,
+.address-link:hover,
+.address-link:focus {
+  color: var(--color-decor);
+}
+/*--footer end**/
+
+/*PORTFOLIO style*/
+.portfolio-list-btns {
+  font-family: inherit;
+}
+.portfolio-btn {
+  padding: 6px 22px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-headlines);
+  background-color: var(--bg-section-decor);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: var(--color-headlines-second);
+  background-color: var(--color-decor);
+}
+.portfolio-card {
+  background-color: var(--bg-main);
+}
+.portfolio-card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-card-desc {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
