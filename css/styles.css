@@ -22,6 +22,8 @@ h4,
 h5,
 h6 {
   color: var(--color-headlines);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /*скидываем стили*/
 .list {
@@ -31,9 +33,33 @@ h6 {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /*---header start---*/
-/*logo*/
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.nav,
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .logo {
+  margin-right: 90px;
   font-family: var(--font-logo);
   font-weight: 700;
   font-size: 26px;
@@ -44,21 +70,27 @@ h6 {
 .logo > .logo-decor {
   color: var(--color-decor);
 }
-/*nav, contacts*/
-.nav,
-.contacts-list {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+.nav-list {
+  display: flex;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
 }
 .nav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   text-transform: capitalize;
-}
-.nav-link {
   color: var(--color-headlines);
 }
+.contacts-list {
+  display: flex;
+}
+.contact-item:not(:last-child) {
+  margin-right: 50px;
+}
 .contacts-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: inherit;
 }
 .nav-link:hover,

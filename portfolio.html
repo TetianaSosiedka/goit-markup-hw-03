@@ -11,33 +11,36 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://github.com/sindresorhus/modern-normalize/blob/main/modern-normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <body>
     <!--Шапка-->
     <header>
-        <nav class="nav">
-            <!--Логотип-->
-            <a href="./index.html" title="Страница сайта WebStudio" class="logo link"><span
-                    class="logo-decor">Web</span>Studio</a>
-            <!--Список страниц сайта-->
-            <ul class="nav-list list">
-                <li><a href="./index.html" title="Студия" class="nav-link link">Студия</a></li>
-                <li><a href="./portfolio.html" title="Портфолио" class="nav-link link curent">Портфолио</a></li>
-                <li><a href="" title="Контакты" class="nav-link link">Контакты</a></li>
+        <div class="container header-nav">
+            <nav class="nav">
+                <!--Логотип-->
+                <a class="logo link" href="./index.html" title="Страница сайта WebStudio"><span
+                        class="logo-decor">Web</span>Studio</a>
+                <!--Постраничная навигация-->
+                <ul class="nav-list list">
+                    <li class="nav-item"><a class="nav-link link curent" href="./index.html" title="Студия">Студия</a></li>
+                    <li class="nav-item"><a class="nav-link link" href="./portfolio.html" title="Портфолио">Портфолио</a></li>
+                    <li class="nav-item"><a class="nav-link link" href="" title="Контакты">Контакты</a></li>
+                </ul>
+            </nav>
+            <!--Меню контактов-->
+            <ul class="contacts-list list">
+                <li class="contact-item">
+                    <a href="mailinto:info@devstudio.com" title="E-mail адрес" class="contacts-link link">info@devstudio.com</a>
+                </li>
+                <li class="contact-item">
+                    <a href="tel:+380961111111" title="Телефон" class="contacts-link link">+38 096 111 11 11</a>
+                </li>
             </ul>
-        </nav>
-        <!--Меню контактов-->
-        <ul class="contacts-list list">
-            <li>
-                <a href="mailinto:info@devstudio.com" title="E-mail адрес" class="contacts-link link">info@devstudio.com</a>
-            </li>
-            <li>
-                <a href="tel:+380961111111" title="Телефон" class="contacts-link link">+38 096 111 11 11</a>
-            </li>
-        </ul>
+        </div>
     </header>
     <!--Основной контент-->
     <main>
