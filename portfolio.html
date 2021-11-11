@@ -47,84 +47,107 @@
     <!--Основной контент-->
     <main>
         <!--Портфолио-->
-        <section class="portfolio">
-            <h1 class="portfolio-title">Портфолио</h1>
-            <ul class="portfolio-list-btns list">
-                <li><button type="button" class="portfolio-btn">Все</button></li>
-                <li><button type="button" class="portfolio-btn">Веб-сайты</button></li>
-                <li><button type="button" class="portfolio-btn">Приложения</button></li>
-                <li><button type="button" class="portfolio-btn">Дизайн</button></li>
-                <li><button type="button" class="portfolio-btn">Маркетинг</button></li>
-            </ul>
-            <ul class="portfolio-cards list">
-                <li class="portfolio-card">
-                    <img src="./images/web-site1.jpg" title="открытый ноутбук с интернет сайтом на экране" width="370">
-                    <h2 class="portfolio-card-title">Технокряк</h2>
-                    <p class="portfolio-card-desc">Веб-сайт</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/design1.jpg" title="два футболиста с мячем" width="370">
-                    <h2 class="portfolio-card-title">Постер New Orlean vs Golden Star</h2>
-                    <p class="portfolio-card-desc">Дизайн</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/application1.jpg" title="логотип ресторана на фоне рыбы" width="370">
-                    <h2 class="portfolio-card-title">Ресторан Seafood</h2>
-                    <p class="portfolio-card-desc">Приложение</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/marketing1.jpg" title="наушники" width="370">
-                    <h2 class="portfolio-card-title">Проект Prime</h2>
-                    <p class="portfolio-card-desc">Маркетинг</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/application2.jpg" title="две коробочки" width="370">
-                    <h2 class="portfolio-card-title">Проект Boxes</h2>
-                    <p class="portfolio-card-desc">Приложение</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/web-site2.jpg" title="монитор" width="370">
-                    <h2 class="portfolio-card-title">Inspiration has no Borders</h2>
-                    <p class="portfolio-card-desc">Веб-сайт</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/desine2.jpg" title="открытый журнал" width="370">
-                    <h2 class="portfolio-card-title">Издание Limited Edition</h2>
-                    <p class="portfolio-card-desc">Дизайн</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/marketing2.jpg" title="бирка с логотипом" width="370">
-                    <h2 class="portfolio-card-title">Проект LAB</h2>
-                    <p class="portfolio-card-desc">Маркетинг</p>
-                </li>
-                <li class="portfolio-card">
-                    <img src="./images/application3.jpg" title="руки на клавиатуре ноутбука" width="370">
-                    <h2 class="portfolio-card-title">Growing Business</h2>
-                    <p class="portfolio-card-desc">Приложение</p>
-                </li>
-            </ul>
-        </section>
+        <div class="container">
+            <section class="section portfolio">
+                <h1 class="portfolio-title visually-hidden">Портфолио</h1>
+                <ul class="portfolio-list-btns list">
+                    <li class="portfolio-item"><button class="portfolio-btn" type="button">Все</button></li>
+                    <li class="portfolio-item"><button class="portfolio-btn" type="button">Веб-сайты</button></li>
+                    <li class="portfolio-item"><button class="portfolio-btn" type="button">Приложения</button></li>
+                    <li class="portfolio-item"><button class="portfolio-btn" type="button">Дизайн</button></li>
+                    <li class="portfolio-item"><button class="portfolio-btn" type="button">Маркетинг</button></li>
+                </ul>
+                <ul class="portfolio-cards list">
+                    <li class="portfolio-card-item">
+                        <img class="portfolio-card-img" src="./images/web-site1.jpg" title="открытый ноутбук с интернет сайтом на экране" width="370">
+                        <div class="portfolio-card-board">
+                            <h2 class="portfolio-card-title">Технокряк</h2>
+                            <p class="portfolio-card-desc">Веб-сайт</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card-item">
+                        <img class="portfolio-card-img" src="./images/design1.jpg" title="два футболиста с мячем" width="370">
+                        <div class="portfolio-card-board">
+                            <h2 class="portfolio-card-title">Постер New Orlean vs Golden Star</h2>
+                            <p class="portfolio-card-desc">Дизайн</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card-item">
+                        <img class="portfolio-card-img" src="./images/application1.jpg" title="логотип ресторана на фоне рыбы" width="370">
+                        <div class="portfolio-card-board">
+                            <h2 class="portfolio-card-title">Ресторан Seafood</h2>
+                            <p class="portfolio-card-desc">Приложение</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card-item">
+                        <img class="portfolio-card-img" src="./images/marketing1.jpg" title="наушники" width="370">
+                        <div class="portfolio-card-board">
+                            <h2 class="portfolio-card-title">Проект Prime</h2>
+                            <p class="portfolio-card-desc">Маркетинг</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card-item">
+                        <img class="portfolio-card-img" src="./images/application2.jpg" title="две коробочки" width="370">
+                        <div class="portfolio-card-board">
+                            <h2 class="portfolio-card-title">Проект Boxes</h2>
+                            <p class="portfolio-card-desc">Приложение</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card-item">
+                        <img class="portfolio-card-img" src="./images/web-site2.jpg" title="монитор" width="370">
+                        <div class="portfolio-card-board">
+                            <h2 class="portfolio-card-title">Inspiration has no Borders</h2>
+                            <p class="portfolio-card-desc">Веб-сайт</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card-item">
+                        <img class="portfolio-card-img" src="./images/desine2.jpg" title="открытый журнал" width="370">
+                        <div class="portfolio-card-board">
+                            <h2 class="portfolio-card-title">Издание Limited Edition</h2>
+                            <p class="portfolio-card-desc">Дизайн</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card-item">
+                        <img class="portfolio-card-img" src="./images/marketing2.jpg" title="бирка с логотипом" width="370">
+                        <div class="portfolio-card-board">
+                            <h2 class="portfolio-card-title">Проект LAB</h2>
+                            <p class="portfolio-card-desc">Маркетинг</p>
+                        </div>
+                    </li>
+                    <li class="portfolio-card-item">
+                        <img class="portfolio-card-img" src="./images/application3.jpg" title="руки на клавиатуре ноутбука" width="370">
+                        <div class="portfolio-card-board">
+                            <h2 class="portfolio-card-title">Growing Business</h2>
+                            <p class="portfolio-card-desc">Приложение</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
     </main>
     <!--Подвал-->
     <footer class="footer">
-        <!--Логотип-->
-        <a href="./index.html" title="Страница сайта WebStudio" class="logo link"><span
-                class="logo-decor">Web</span>Studio</a>
-        <!--Меню контактов-->
-        <address class="address">
-            <a href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
-                title="г. Киев, пр-т Леси Украинки, 26" target="blank" rel="nooperer noreferrer"
-                class="address-map-link link">г. Киев, пр-т Леси Украинки, 26</a>
-            <ul class="address-list list">
-                <li>
-                    <a href="mailinto:info@devstudio.com" title="E-mail адрес"
-                        class="address-link link">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a href="tel:+380961111111" title="Телефон" class="address-link link">+38 096 111 11 11</a>
-                </li>
-            </ul>
-        </address>
+        <div class="container footer-content">
+            <!--Логотип-->
+            <a class="logo link" href="./index.html" title="Страница сайта WebStudio"><span
+                    class="logo-decor">Web</span>Studio</a>
+            <!--Меню контактов-->
+            <address class="address">
+                <a class="address-map-link link"
+                    href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB.+%D0%9B%D0%B5%D1%81%D0%B8+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D0%B5%D0%B2,+%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+                    title="г. Киев, пр-т Леси Украинки, 26" target="blank" rel="nooperer noreferrer">г. Киев, пр-т Леси
+                    Украинки, 26</a>
+                <ul class="address-list list">
+                    <li class="address-item">
+                        <a class="address-link link" href="mailinto:info@devstudio.com"
+                            title="E-mail адрес">info@devstudio.com</a>
+                    </li>
+                    <li class="address-item">
+                        <a class="address-link link" href="tel:+380961111111" title="Телефон">+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 
