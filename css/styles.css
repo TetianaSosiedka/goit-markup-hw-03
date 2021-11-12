@@ -126,10 +126,14 @@ p {
 }
 /*hero*/
 .hero {
+  padding: 200px 0;
   text-align: center;
   background-color: var(--bg-footer);
 }
 .hero-title {
+  max-width: 696px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -229,6 +233,9 @@ p {
   flex-basis: calc((100% - 4 * 30px) / 4);
   margin: 15px;
   background-color: var(--bg-main);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-board {
   padding-top: 30px;
